@@ -1,0 +1,8 @@
+
+SET FOREIGN_KEY_CHECKS = 0;
+
+DELETE FROM tb_movie WHERE movie_id=11;
+
+SELECT * FROM tb_movie;
+
+SET FOREIGN_KEY_CHECKS = 1;
